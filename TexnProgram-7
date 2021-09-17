@@ -1,0 +1,20 @@
+import java.util.*;
+
+public class TexnLogismikou {
+   public static void main(String[] args) {
+      
+    // create an empty array list with an initial capacity
+    ArrayList<String> name_info = new ArrayList<String>(5);
+
+    // use add() method to add values in the list
+    name_info.add("John Doe");
+    name_info.add("Lorem Ipsum");
+    name_info.add("Adam Clark");
+	    
+	// Print out the colors in the ArrayList.
+    for (int i = 0; i < 3; i++)
+      {
+         System.out.println(color_list.get(i).toString());
+      }
+  }
+}  
